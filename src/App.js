@@ -13,7 +13,7 @@ function App() {
 	return (
 		<UserProvider>
 			<div className="App">
-				<Router basename="/SelfStarter-Interview">
+				<Router basename="/SelfStarter-Interview" >
 					<Nav />
 					<Switch>
 						<Route exact path="/">
