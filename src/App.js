@@ -9,15 +9,11 @@ import Register from './Components/Register/Register';
 
 import { UserProvider } from './Context';
 
-
-
 function App() {
-
-
 	return (
 		<UserProvider>
 			<div className="App">
-				<Router>
+				<Router basename="/SelfStarter-Interview">
 					<Nav />
 					<Switch>
 						<Route exact path="/">
@@ -36,7 +32,7 @@ function App() {
 							<Login />
 						</Route>
 
-						<Route>
+						<Route path="/register">
 							<Register />
 						</Route>
 					</Switch>

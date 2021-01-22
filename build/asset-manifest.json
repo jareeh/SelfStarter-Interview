@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Jefflix/static/css/main.ec0ec5fe.chunk.css",
-    "main.js": "/Jefflix/static/js/main.be2a382d.chunk.js",
-    "main.js.map": "/Jefflix/static/js/main.be2a382d.chunk.js.map",
-    "runtime-main.js": "/Jefflix/static/js/runtime-main.98c81456.js",
-    "runtime-main.js.map": "/Jefflix/static/js/runtime-main.98c81456.js.map",
-    "static/js/2.c8ff5dc4.chunk.js": "/Jefflix/static/js/2.c8ff5dc4.chunk.js",
-    "static/js/2.c8ff5dc4.chunk.js.map": "/Jefflix/static/js/2.c8ff5dc4.chunk.js.map",
-    "static/js/3.c7862cdf.chunk.js": "/Jefflix/static/js/3.c7862cdf.chunk.js",
-    "static/js/3.c7862cdf.chunk.js.map": "/Jefflix/static/js/3.c7862cdf.chunk.js.map",
-    "index.html": "/Jefflix/index.html",
-    "static/css/main.ec0ec5fe.chunk.css.map": "/Jefflix/static/css/main.ec0ec5fe.chunk.css.map",
-    "static/js/2.c8ff5dc4.chunk.js.LICENSE.txt": "/Jefflix/static/js/2.c8ff5dc4.chunk.js.LICENSE.txt",
-    "static/media/Jefflix.55c8baeb.png": "/Jefflix/static/media/Jefflix.55c8baeb.png"
+    "main.css": "/SelfStarter-Interview/static/css/main.ec0ec5fe.chunk.css",
+    "main.js": "/SelfStarter-Interview/static/js/main.7cb70305.chunk.js",
+    "main.js.map": "/SelfStarter-Interview/static/js/main.7cb70305.chunk.js.map",
+    "runtime-main.js": "/SelfStarter-Interview/static/js/runtime-main.34ca79f8.js",
+    "runtime-main.js.map": "/SelfStarter-Interview/static/js/runtime-main.34ca79f8.js.map",
+    "static/js/2.1fccdc25.chunk.js": "/SelfStarter-Interview/static/js/2.1fccdc25.chunk.js",
+    "static/js/2.1fccdc25.chunk.js.map": "/SelfStarter-Interview/static/js/2.1fccdc25.chunk.js.map",
+    "static/js/3.87ed6516.chunk.js": "/SelfStarter-Interview/static/js/3.87ed6516.chunk.js",
+    "static/js/3.87ed6516.chunk.js.map": "/SelfStarter-Interview/static/js/3.87ed6516.chunk.js.map",
+    "index.html": "/SelfStarter-Interview/index.html",
+    "static/css/main.ec0ec5fe.chunk.css.map": "/SelfStarter-Interview/static/css/main.ec0ec5fe.chunk.css.map",
+    "static/js/2.1fccdc25.chunk.js.LICENSE.txt": "/SelfStarter-Interview/static/js/2.1fccdc25.chunk.js.LICENSE.txt",
+    "static/media/Jefflix.55c8baeb.png": "/SelfStarter-Interview/static/media/Jefflix.55c8baeb.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.98c81456.js",
-    "static/js/2.c8ff5dc4.chunk.js",
+    "static/js/runtime-main.34ca79f8.js",
+    "static/js/2.1fccdc25.chunk.js",
     "static/css/main.ec0ec5fe.chunk.css",
-    "static/js/main.be2a382d.chunk.js"
+    "static/js/main.7cb70305.chunk.js"
   ]
 }
