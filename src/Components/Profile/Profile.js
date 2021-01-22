@@ -28,7 +28,7 @@ const Profile = () => {
 			{/* <Row title="Favorite Titles" isLargeRow /> */}
 			<div className="row">
 				<div className="row-posters">
-					{favorites.map((movie, index) => {
+					{favorites?.map((movie, index) => {
 						return (
 							<img
 								onClick={() =>

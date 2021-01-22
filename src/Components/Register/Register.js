@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { useHistory } from 'react-router-dom';
-
+import UserContext from '../../Context';
 import './Register.css';
 
 const Register = () => {
@@ -8,20 +8,33 @@ const Register = () => {
 	const [email, setEmail] = useState();
 	const [password, setPassword] = useState();
 	const [confirmPassword, setConfirmPassword] = useState();
-
+    const { updateUser } = useContext(UserContext);
 	const history = useHistory();
 
 	const handleSubmit = (e) => {
-		e.preventDefault();
-		// send data on post route here
-		const account = {
-			name,
-			email,
-			password,
-		};
-		localStorage.setItem('credentials', JSON.stringify(account));
-		history.push('/profile');
-	};
+        if (password === confirmPassword) {
+            
+            e.preventDefault();
+            
+            const account = {
+                name,
+                email,
+                password,
+            };
+            
+            const user = {
+                email,
+                password
+            }
+            localStorage.setItem('credentials', JSON.stringify(account));
+            localStorage.setItem('activeUser', JSON.stringify(user));
+            updateUser(user)
+            history.push('/profile');
+        } else {
+            e.preventDefault();
+            alert('Passwords do not match!')
+        }
+    }
 
 	const updateName = (e) => {
 		setName(e.target.value);

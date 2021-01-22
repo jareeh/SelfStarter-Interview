@@ -36,7 +36,7 @@ function Nav() {
 					<img src={logo} alt="Jefflix logo" className="nav-logo" />
 				</Link>
 
-				{user ? (
+				{user?.email ? (
 					<>
 						<h2 className="user-name">Hello, {user.email}</h2>
 						<button className="login" onClick={handleLogout}>Logout</button>
