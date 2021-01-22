@@ -1,0 +1,64 @@
+.register-overlay {
+	height: 700px;
+	color: #000;
+}
+
+.register-container {
+	margin-top: 70px;
+	width: 35%;
+	margin: auto;
+	padding-top: 200px;
+}
+
+.register-form {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+}
+
+.btn-submit {
+	align-items: center;
+	cursor: pointer;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 700;
+	border-radius: 0.2vw;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	/* margin-right: 1rem; */
+	padding-top: 0.5rem;
+	background-color: rgba(51, 51, 51, 0.5);
+	padding-bottom: 0.5rem;
+}
+
+.btn-submit:hover {
+	color: #000;
+	background-color: #e6e6e6;
+	transition: all 0.2s;
+}
+
+.email {
+	width: 100%;
+	height: 30px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+.password {
+	width: 100%;
+	height: 30px;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.register-title {
+	color: #fff;
+	padding-bottom: 15px;
+}
+
+label {
+	font-weight: 700;
+	margin-bottom: 5px;
+}

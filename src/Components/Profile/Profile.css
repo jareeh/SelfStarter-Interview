@@ -1,0 +1,24 @@
+.profile {
+	color: #fff;
+	background-color: #000;
+	padding-top: 100px;
+	margin-left: 30px;
+	height: 625px;
+}
+
+.profile-title {
+	padding-top: 1em;
+}
+
+.profile-name {
+	padding-top: 1em;
+}
+
+.profile-email {
+	padding-top: 1em;
+}
+
+.profile-favorites {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
